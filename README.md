@@ -3,9 +3,9 @@
 ## 기술 스택
 
 - **언어/런타임**: Java 17
-- **프레임워크**: Spring Boot 2.7.x (Spring MVC, Spring Security)
+- **프레임워크**: Spring Boot 2.7.1 (Spring MVC, Spring Security)
 - **데이터 접근**: MyBatis (동적 SQL, 매퍼 XML)
-- **DB**: Oracle (PL/SQL, 계층 쿼리, 인덱스 튜닝)
+- **DB**: Oracle, PostGresql (PL/SQL, 계층 쿼리, 인덱스 튜닝)
 - **뷰**: 서버사이드 템플릿 엔진 (SSR)
 - **빌드**: Gradle
 
