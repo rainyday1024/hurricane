@@ -52,7 +52,8 @@
 - 잘못된 패턴으로 작성했다가 수정받음 → 즉시 해당 문서에 기록
 - 의존성 업그레이드 → CLAUDE.md 표 갱신
 - 새 모듈 → product-specs/index.md 갱신 + 스펙 파일 추가
-- MCP 추가/제거 → TOOLS.md 갱신
+- MCP 추가/제거 → TOOLS.md(사용 정책) + 하네스 템플릿 리포 `setup/mcp/`(등록 절차) 갱신
+- 권한 규칙·hook 추가/제거 → `setup/settings/` · `setup/hooks/` 해당 문서 갱신
 
 ## 가지치기 (gardening)
 

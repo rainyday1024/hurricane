@@ -38,6 +38,7 @@
 | 사용 가능 MCP / 외부 도구 | `docs/TOOLS.md` |
 | 피드백 루프 / 검증 자동화 | `docs/FEEDBACK_LOOPS.md` |
 | 문서 가드닝 | `docs/DOC_GARDENING.md` |
+| 환경 세팅 (설정·권한·MCP·메모리·hook) | 하네스 템플릿 리포 `setup/README.md` <!-- 사내 위치로 바꿀 것 --> |
 
 ## 피드백 루프
 

@@ -1,0 +1,33 @@
+# 개인 작업 노트 (plan 등) — git 미추적
+docs/plans/
+**/plans/
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 로그
+*.log
+
+# Claude Code 실물 설정 — 이 리포는 예시 파일만 추적한다.
+# `.claude` 를 통째로 제외하면 팀 공유 계층이 죽는다 — 금지.
+#   → setup/settings/permissions-starter.md §3계층 분담
+.claude.json
+.credentials.json
+**/settings.local.json
+/.claude/settings.local.json
+
+# 자격증명 / 비밀값
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+id_rsa*
+
+# 익명화하지 않은 개인 환경 스냅샷
+*.private.md

@@ -1,0 +1,32 @@
+{
+  "model": "opus",
+  "effortLevel": "high",
+  "autoUpdatesChannel": "latest",
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git fetch:*)",
+      "Bash(ls:*)",
+      "Bash(rg:*)",
+      "Bash(where:*)",
+      "Bash(which:*)",
+      "WebSearch",
+      "WebFetch(domain:code.claude.com)",
+      "WebFetch(domain:docs.claude.com)"
+    ],
+    "additionalDirectories": []
+  },
+  "enabledPlugins": {},
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git fetch:*)",
+      "Bash(./gradlew check)",
+      "Bash(./gradlew test)",
+      "Bash(npm run lint)",
+      "Bash(npm test)"
+    ],
+    "additionalDirectories": []
+  }
+}

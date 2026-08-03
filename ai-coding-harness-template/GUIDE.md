@@ -75,6 +75,9 @@ docs/
 └── product-specs/       # 모듈/도메인 스펙 카탈로그
 ```
 
+문서 하네스와 별개로, Claude Code **환경 자체**(설정 3계층·권한·MCP·영속 메모리·hook)의 세팅은
+[`setup/`](setup/README.md) 소관이다. 이 문서는 그 환경 레이어를 다루지 않는다.
+
 프로젝트 스택에 따라 문서를 더한다. 예를 들어 프론트엔드 규칙이 두꺼우면 `FRONTEND.md`,
 특정 그리드/컴포넌트 라이브러리를 쓰면 `<라이브러리>_GUIDE.md` 같은 **스택 특화 가이드**를 추가한다.
 반대로 필요 없는 문서(예: UI 없는 백엔드 서비스의 `UI_VALIDATION.md`)는 뺀다.
@@ -145,6 +148,9 @@ docs/
 - OpenAI — Harness Engineering: <https://openai.com/index/harness-engineering/>
 - AWS 기술 블로그 — Harness Engineering from Deep Insight: <https://aws.amazon.com/ko/blogs/tech/harness-engineering-from-deep-insight/>
 - Anthropic — Claude Code / `CLAUDE.md`: <https://docs.claude.com/en/docs/claude-code/overview>
+- Anthropic — 설정 / 권한 (`settings.json`): <https://code.claude.com/docs/en/settings>
+- Anthropic — MCP: <https://code.claude.com/docs/en/mcp>
+- Anthropic — hooks: <https://code.claude.com/docs/en/hooks>
 
 ---
 
